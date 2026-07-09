@@ -3,11 +3,12 @@ import { useAuth } from './context/AuthContext.jsx'
 import { useProgression } from './hooks/useProgression.js'
 import { getCategories, computeGlobalProgress } from './lib/weaponsUtils.js'
 import Login from './components/Login.jsx'
+import ResetPassword from './components/ResetPassword.jsx'
 import Header from './components/Header.jsx'
 import CategoryList from './components/CategoryList.jsx'
 
 export default function App() {
-  const { user, loading: authLoading, signOut } = useAuth()
+  const { user, loading: authLoading, passwordRecovery, signOut } = useAuth()
 
   if (authLoading) {
     return (
@@ -15,6 +16,10 @@ export default function App() {
         Chargement...
       </div>
     )
+  }
+
+  if (passwordRecovery) {
+    return <ResetPassword />
   }
 
   if (!user) {
