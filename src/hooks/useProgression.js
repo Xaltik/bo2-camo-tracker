@@ -145,14 +145,14 @@ export function useProgression(user) {
   const resetArme = useCallback(
     (armeId) => {
       const defis = getFlatDefis().filter((d) => d.armeId === armeId)
-      return resetDefis(defis.map((d) => d.id))
+      return resetDefis([...new Set(defis.map((d) => d.compteurId))])
     },
     [resetDefis],
   )
 
   const resetGlobal = useCallback(() => {
     const defis = getFlatDefis()
-    return resetDefis(defis.map((d) => d.id))
+    return resetDefis([...new Set(defis.map((d) => d.compteurId))])
   }, [resetDefis])
 
   return { progressionMap, status, loading, setDefiValue, resetArme, resetGlobal }

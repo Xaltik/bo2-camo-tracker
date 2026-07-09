@@ -1,5 +1,5 @@
 import ChallengeRow from './ChallengeRow.jsx'
-import { isCamoUnlocked } from '../lib/weaponsUtils.js'
+import { isCamoUnlocked, getCompteurId } from '../lib/weaponsUtils.js'
 
 const TYPE_STYLES = {
   standard: 'text-gray-300 border-cod-border',
@@ -8,7 +8,7 @@ const TYPE_STYLES = {
 }
 
 export default function CamoSection({ arme, camo, progressionMap, onDefiChange }) {
-  const unlocked = isCamoUnlocked(camo, progressionMap)
+  const unlocked = isCamoUnlocked(arme.id, camo, progressionMap)
   const style = TYPE_STYLES[camo.type] ?? TYPE_STYLES.standard
 
   return (
@@ -21,10 +21,17 @@ export default function CamoSection({ arme, camo, progressionMap, onDefiChange }
           <span className={`text-xs font-semibold ${style.split(' ')[0]}`}>Débloqué</span>
         )}
       </div>
+      {camo.defis.some((d) => d.compteur) && (
+        <p className="text-[11px] text-gray-500 mb-1.5 italic">
+          Compteur partagé avec les autres paliers "{camo.defis.find((d) => d.compteur).compteur}"
+          — incrémenter ici fait aussi progresser les autres.
+        </p>
+      )}
       <div className="space-y-1.5">
         {camo.defis.map((defi) => {
-          const p = progressionMap[defi.id]
-          const valeurCible = p?.valeur_cible ?? defi.valeur_cible
+          const compteurId = getCompteurId(arme.id, defi)
+          const p = progressionMap[compteurId]
+          const valeurCible = defi.valeur_cible
           const valeurActuelle = p?.valeur_actuelle ?? 0
           return (
             <ChallengeRow
@@ -33,7 +40,7 @@ export default function CamoSection({ arme, camo, progressionMap, onDefiChange }
               valeurActuelle={valeurActuelle}
               valeurCible={valeurCible}
               onChange={(nv) =>
-                onDefiChange(defi.id, valeurCible, nv, {
+                onDefiChange(compteurId, valeurCible, nv, {
                   armeNom: arme.nom,
                   camoNom: camo.nom,
                 })
