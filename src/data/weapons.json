@@ -2087,8 +2087,8 @@
               "defis": [
                 {
                   "id": "mp7_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -2100,8 +2100,8 @@
               "defis": [
                 {
                   "id": "mp7_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme MP7 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -2113,8 +2113,8 @@
               "defis": [
                 {
                   "id": "mp7_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme MP7 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -2126,8 +2126,8 @@
               "defis": [
                 {
                   "id": "mp7_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -2139,8 +2139,8 @@
               "defis": [
                 {
                   "id": "mp7_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme MP7",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -2301,8 +2301,8 @@
               "defis": [
                 {
                   "id": "pdw_57_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -2314,8 +2314,8 @@
               "defis": [
                 {
                   "id": "pdw_57_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme PDW-57 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -2327,8 +2327,8 @@
               "defis": [
                 {
                   "id": "pdw_57_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme PDW-57 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -2340,8 +2340,8 @@
               "defis": [
                 {
                   "id": "pdw_57_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -2353,8 +2353,8 @@
               "defis": [
                 {
                   "id": "pdw_57_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme PDW-57",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -2515,8 +2515,8 @@
               "defis": [
                 {
                   "id": "vector_k10_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -2528,8 +2528,8 @@
               "defis": [
                 {
                   "id": "vector_k10_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme Vector K10 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -2541,8 +2541,8 @@
               "defis": [
                 {
                   "id": "vector_k10_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme Vector K10 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -2554,8 +2554,8 @@
               "defis": [
                 {
                   "id": "vector_k10_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -2567,8 +2567,8 @@
               "defis": [
                 {
                   "id": "vector_k10_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme Vector K10",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -2729,8 +2729,8 @@
               "defis": [
                 {
                   "id": "msmc_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -2742,8 +2742,8 @@
               "defis": [
                 {
                   "id": "msmc_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme MSMC et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -2755,8 +2755,8 @@
               "defis": [
                 {
                   "id": "msmc_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme MSMC et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -2768,8 +2768,8 @@
               "defis": [
                 {
                   "id": "msmc_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -2781,8 +2781,8 @@
               "defis": [
                 {
                   "id": "msmc_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme MSMC",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -2943,8 +2943,8 @@
               "defis": [
                 {
                   "id": "chicom_cqb_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -2956,8 +2956,8 @@
               "defis": [
                 {
                   "id": "chicom_cqb_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme Chicom CQB et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -2969,8 +2969,8 @@
               "defis": [
                 {
                   "id": "chicom_cqb_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme Chicom CQB et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -2982,8 +2982,8 @@
               "defis": [
                 {
                   "id": "chicom_cqb_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -2995,8 +2995,8 @@
               "defis": [
                 {
                   "id": "chicom_cqb_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme Chicom CQB",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -3157,8 +3157,8 @@
               "defis": [
                 {
                   "id": "skorpion_evo_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -3170,8 +3170,8 @@
               "defis": [
                 {
                   "id": "skorpion_evo_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme Skorpion EVO et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -3183,8 +3183,8 @@
               "defis": [
                 {
                   "id": "skorpion_evo_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme Skorpion EVO et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -3196,8 +3196,8 @@
               "defis": [
                 {
                   "id": "skorpion_evo_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -3209,8 +3209,8 @@
               "defis": [
                 {
                   "id": "skorpion_evo_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme Skorpion EVO",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -3371,8 +3371,8 @@
               "defis": [
                 {
                   "id": "peacekeeper_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -3384,8 +3384,8 @@
               "defis": [
                 {
                   "id": "peacekeeper_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme Peacekeeper et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -3397,8 +3397,8 @@
               "defis": [
                 {
                   "id": "peacekeeper_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme Peacekeeper et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -3410,8 +3410,8 @@
               "defis": [
                 {
                   "id": "peacekeeper_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -3423,8 +3423,8 @@
               "defis": [
                 {
                   "id": "peacekeeper_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme Peacekeeper",
+                  "valeur_cible": 10
                 }
               ]
             },
