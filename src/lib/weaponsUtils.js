@@ -67,6 +67,48 @@ export function computeCategorieProgress(categorie, progressionMap) {
   return { debloques, total, pourcentage: total === 0 ? 0 : Math.round((debloques / total) * 100) }
 }
 
+// Pour chaque arme, retrouve le prochain palier standard non débloqué le plus proche (par
+// compteur partagé, ne garde que le seuil le plus bas non encore atteint), puis trie tous
+// les paliers ainsi trouvés par "quantité restante" croissante — les plus proches du
+// déblocage en premier.
+export function computeNextMilestones(progressionMap, limit = 5) {
+  const candidates = []
+
+  for (const categorie of weaponsData.categories) {
+    for (const arme of categorie.armes) {
+      const bestByCompteur = new Map()
+
+      for (const camo of arme.camouflages) {
+        if (camo.type !== 'standard') continue
+        for (const defi of camo.defis) {
+          const compteurId = getCompteurId(arme.id, defi)
+          const actuelle = progressionMap[compteurId]?.valeur_actuelle ?? 0
+          if (actuelle >= defi.valeur_cible) continue
+
+          const existing = bestByCompteur.get(compteurId)
+          if (!existing || defi.valeur_cible < existing.cible) {
+            bestByCompteur.set(compteurId, {
+              armeId: arme.id,
+              armeNom: arme.nom,
+              categorieNom: categorie.nom,
+              camoNom: camo.nom,
+              description: defi.description,
+              actuelle,
+              cible: defi.valeur_cible,
+              restant: defi.valeur_cible - actuelle,
+            })
+          }
+        }
+      }
+
+      candidates.push(...bestByCompteur.values())
+    }
+  }
+
+  candidates.sort((a, b) => a.restant - b.restant)
+  return candidates.slice(0, limit)
+}
+
 export function computeGlobalProgress(progressionMap) {
   let total = 0
   let debloques = 0

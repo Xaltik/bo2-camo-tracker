@@ -1,11 +1,12 @@
 import { useMemo, useState } from 'react'
 import { useAuth } from './context/AuthContext.jsx'
 import { useProgression } from './hooks/useProgression.js'
-import { getCategories, computeGlobalProgress } from './lib/weaponsUtils.js'
+import { getCategories, computeGlobalProgress, computeNextMilestones } from './lib/weaponsUtils.js'
 import Login from './components/Login.jsx'
 import ResetPassword from './components/ResetPassword.jsx'
 import Header from './components/Header.jsx'
 import CategoryList from './components/CategoryList.jsx'
+import NextMilestones from './components/NextMilestones.jsx'
 
 export default function App() {
   const { user, loading: authLoading, passwordRecovery, signOut } = useAuth()
@@ -35,6 +36,7 @@ function Dashboard({ user, onSignOut }) {
 
   const categories = useMemo(() => getCategories(), [])
   const globalProgress = useMemo(() => computeGlobalProgress(progressionMap), [progressionMap])
+  const nextMilestones = useMemo(() => computeNextMilestones(progressionMap, 5), [progressionMap])
 
   const filteredCategories = useMemo(() => {
     const term = search.trim().toLowerCase()
@@ -67,12 +69,15 @@ function Dashboard({ user, onSignOut }) {
         {loading ? (
           <p className="text-center text-gray-500 py-10">Chargement de votre progression...</p>
         ) : (
-          <CategoryList
-            categories={filteredCategories}
-            progressionMap={progressionMap}
-            onDefiChange={handleDefiChange}
-            onResetArme={resetArme}
-          />
+          <>
+            <NextMilestones milestones={nextMilestones} />
+            <CategoryList
+              categories={filteredCategories}
+              progressionMap={progressionMap}
+              onDefiChange={handleDefiChange}
+              onResetArme={resetArme}
+            />
+          </>
         )}
       </main>
     </div>
