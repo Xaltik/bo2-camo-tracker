@@ -1,37 +1,46 @@
 import { useState } from 'react'
 import CamoSection from './CamoSection.jsx'
-import ProgressBar from './ProgressBar.jsx'
+import ProgressRing from './ProgressRing.jsx'
 import ConfirmModal from './ConfirmModal.jsx'
+import WeaponIcon from './WeaponIcon.jsx'
 import { computeArmeProgress } from '../lib/weaponsUtils.js'
 
-export default function WeaponCard({ arme, progressionMap, onDefiChange, onResetArme, editing }) {
+export default function WeaponCard({ arme, categorieId, progressionMap, onDefiChange, onResetArme, editing }) {
   const [open, setOpen] = useState(false)
   const [confirmOpen, setConfirmOpen] = useState(false)
   const progress = computeArmeProgress(arme, progressionMap)
 
   return (
-    <div className="bg-cod-panel border border-cod-border rounded-lg overflow-hidden">
+    <div
+      className={`bg-cod-panel border rounded-lg overflow-hidden transition-colors ${
+        open ? 'border-cod-accent/50' : 'border-cod-border hover:border-cod-accent/30'
+      }`}
+    >
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="w-full flex items-center justify-between gap-3 px-4 py-3 text-left"
+        className="w-full flex items-center gap-3 px-3 py-3 text-left"
       >
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center justify-between mb-1">
-            <span className="font-semibold text-gray-100 truncate">{arme.nom}</span>
-            <span className="text-xs text-gray-400 shrink-0 ml-2">
-              {progress.debloques}/{progress.total}
-            </span>
-          </div>
-          <ProgressBar pourcentage={progress.pourcentage} />
+        <div className="w-11 h-11 shrink-0 rounded-lg bg-cod-panel2 border border-cod-border flex items-center justify-center text-gray-400">
+          <WeaponIcon categorieId={categorieId} className="w-7 h-7" />
         </div>
+
+        <div className="flex-1 min-w-0">
+          <span className="font-semibold text-gray-100 truncate block leading-tight">{arme.nom}</span>
+          <span className="text-xs text-gray-500">
+            {progress.debloques}/{progress.total} camouflages
+          </span>
+        </div>
+
+        <ProgressRing pourcentage={progress.pourcentage} />
+
         <span className={`text-gray-500 transition-transform shrink-0 ${open ? 'rotate-180' : ''}`}>
           ▾
         </span>
       </button>
 
       {open && (
-        <div className="px-4 pb-4 space-y-2">
+        <div className="px-3 pb-4 space-y-2 border-t border-cod-border pt-3">
           {arme.camouflages
             .slice()
             .sort((a, b) => a.ordre - b.ordre)

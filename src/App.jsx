@@ -98,7 +98,7 @@ function Dashboard({ user, onSignOut }) {
         onToggleEditMode={() => setEditMode((v) => !v)}
       />
 
-      <main className="max-w-3xl mx-auto px-4 pt-5">
+      <main className="max-w-4xl mx-auto px-4 pt-5">
         {isLoading ? (
           <p className="text-center text-gray-500 py-10">Chargement de votre progression...</p>
         ) : (

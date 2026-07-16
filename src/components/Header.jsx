@@ -31,7 +31,7 @@ export default function Header({
 
   return (
     <header className="sticky top-0 z-40 bg-cod-bg/95 backdrop-blur border-b border-cod-border px-4 py-3">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-between gap-3 mb-3">
           <div>
             <h1 className="text-lg font-bold uppercase tracking-wide text-cod-accent leading-tight">
