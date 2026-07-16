@@ -1,4 +1,6 @@
 import WeaponCard from './WeaponCard.jsx'
+import ProgressBar from './ProgressBar.jsx'
+import { computeCategorieProgress } from '../lib/weaponsUtils.js'
 
 export default function CategoryList({ categories, progressionMap, onDefiChange, onResetArme }) {
   if (categories.length === 0) {
@@ -7,11 +9,21 @@ export default function CategoryList({ categories, progressionMap, onDefiChange,
 
   return (
     <div className="space-y-8">
-      {categories.map((categorie) => (
+      {categories.map((categorie) => {
+        const progress = computeCategorieProgress(categorie, progressionMap)
+        return (
         <section key={categorie.id}>
-          <h2 className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-3">
-            {categorie.nom}
-          </h2>
+          <div className="flex items-center justify-between mb-1.5">
+            <h2 className="text-xs font-bold uppercase tracking-widest text-gray-500">
+              {categorie.nom}
+            </h2>
+            <span className="text-xs text-gray-500">
+              {progress.debloques}/{progress.total} ({progress.pourcentage}%)
+            </span>
+          </div>
+          <div className="mb-3">
+            <ProgressBar pourcentage={progress.pourcentage} height="h-1.5" />
+          </div>
           <div className="space-y-3">
             {categorie.armes.map((arme) => (
               <WeaponCard
@@ -24,7 +36,8 @@ export default function CategoryList({ categories, progressionMap, onDefiChange,
             ))}
           </div>
         </section>
-      ))}
+        )
+      })}
     </div>
   )
 }

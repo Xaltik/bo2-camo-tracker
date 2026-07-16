@@ -57,6 +57,16 @@ export function computeArmeProgress(arme, progressionMap) {
   return { debloques, total, pourcentage: total === 0 ? 0 : Math.round((debloques / total) * 100) }
 }
 
+export function computeCategorieProgress(categorie, progressionMap) {
+  let total = 0
+  let debloques = 0
+  for (const arme of categorie.armes) {
+    total += arme.camouflages.length
+    debloques += arme.camouflages.filter((c) => isCamoUnlocked(arme.id, c, progressionMap)).length
+  }
+  return { debloques, total, pourcentage: total === 0 ? 0 : Math.round((debloques / total) * 100) }
+}
+
 export function computeGlobalProgress(progressionMap) {
   let total = 0
   let debloques = 0
