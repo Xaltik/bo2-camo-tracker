@@ -40,6 +40,32 @@ export function getCategories() {
   return weaponsData.categories
 }
 
+// Applique par-dessus les catégories les corrections personnelles (description / valeur cible)
+// enregistrées par l'utilisateur, sans toucher au fichier weapons.json d'origine. Retourne une
+// nouvelle structure (les catégories/armes/camos d'origine ne sont jamais mutées).
+export function applyOverrides(categories, overridesMap) {
+  if (!overridesMap || Object.keys(overridesMap).length === 0) return categories
+
+  return categories.map((categorie) => ({
+    ...categorie,
+    armes: categorie.armes.map((arme) => ({
+      ...arme,
+      camouflages: arme.camouflages.map((camo) => ({
+        ...camo,
+        defis: camo.defis.map((defi) => {
+          const override = overridesMap[defi.id]
+          if (!override) return defi
+          return {
+            ...defi,
+            description: override.description ?? defi.description,
+            valeur_cible: override.valeur_cible ?? defi.valeur_cible,
+          }
+        }),
+      })),
+    })),
+  }))
+}
+
 // Est-ce qu'un camouflage est débloqué : tous ses défis atteignent leur valeur cible.
 // La cible vient toujours du JSON (defi.valeur_cible) : la valeur en base n'est que le
 // compteur actuel, qui peut être partagé entre plusieurs paliers.
@@ -71,10 +97,10 @@ export function computeCategorieProgress(categorie, progressionMap) {
 // compteur partagé, ne garde que le seuil le plus bas non encore atteint), puis trie tous
 // les paliers ainsi trouvés par "quantité restante" croissante — les plus proches du
 // déblocage en premier.
-export function computeNextMilestones(progressionMap, limit = 5) {
+export function computeNextMilestones(categories, progressionMap, limit = 5) {
   const candidates = []
 
-  for (const categorie of weaponsData.categories) {
+  for (const categorie of categories) {
     for (const arme of categorie.armes) {
       const bestByCompteur = new Map()
 
@@ -111,10 +137,10 @@ export function computeNextMilestones(progressionMap, limit = 5) {
   return candidates.slice(0, limit)
 }
 
-export function computeGlobalProgress(progressionMap) {
+export function computeGlobalProgress(categories, progressionMap) {
   let total = 0
   let debloques = 0
-  for (const categorie of weaponsData.categories) {
+  for (const categorie of categories) {
     for (const arme of categorie.armes) {
       total += arme.camouflages.length
       debloques += arme.camouflages.filter((c) => isCamoUnlocked(arme.id, c, progressionMap)).length

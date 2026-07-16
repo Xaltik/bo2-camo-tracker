@@ -2,7 +2,7 @@ import WeaponCard from './WeaponCard.jsx'
 import ProgressBar from './ProgressBar.jsx'
 import { computeCategorieProgress } from '../lib/weaponsUtils.js'
 
-export default function CategoryList({ categories, progressionMap, onDefiChange, onResetArme }) {
+export default function CategoryList({ categories, progressionMap, onDefiChange, onResetArme, editing }) {
   if (categories.length === 0) {
     return <p className="text-center text-gray-500 py-10">Aucune arme ne correspond à votre recherche.</p>
   }
@@ -32,6 +32,7 @@ export default function CategoryList({ categories, progressionMap, onDefiChange,
                 progressionMap={progressionMap}
                 onDefiChange={onDefiChange}
                 onResetArme={onResetArme}
+                editing={editing}
               />
             ))}
           </div>

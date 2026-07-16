@@ -146,6 +146,30 @@ Structure d'une arme :
 Après modification, relancez simplement `npm run dev` (ou redéployez) pour
 voir les changements.
 
+### Corriger les défis directement dans l'app (mode édition)
+
+Plutôt que d'éditer `weapons.json` à la main, vous pouvez corriger la
+description et la valeur cible d'un défi **directement dans l'app** :
+
+1. Cliquez sur le bouton **✎ Édition** en haut de l'écran (à côté de la barre
+   de recherche).
+2. Un crayon apparaît à côté de chaque défi. Cliquez dessus, modifiez le
+   texte et/ou la valeur cible, puis **Enregistrer**.
+3. Un défi modifié affiche la mention *(modifié)* ; le bouton
+   **Réinitialiser** dans l'éditeur permet de revenir à la valeur d'origine.
+
+Ces corrections sont stockées dans une table Supabase séparée
+(`defi_overrides`) et synchronisées entre vos appareils comme le reste — le
+fichier `weapons.json` d'origine n'est jamais modifié, seule la table
+d'"overrides" surcharge son affichage pour votre compte.
+
+**Important** : cette fonctionnalité nécessite une table supplémentaire dans
+Supabase. Si vous avez créé votre projet Supabase avant cette mise à jour,
+retournez dans **SQL Editor > New query**, collez le contenu (mis à jour) de
+[`supabase/schema.sql`](supabase/schema.sql), et cliquez **Run** — les
+`create table if not exists` ne toucheront pas à la table `progression`
+existante, ils ajouteront seulement `defi_overrides`.
+
 ## 6. Déployer gratuitement (Vercel ou Netlify)
 
 ### Option A — Vercel
@@ -203,27 +227,32 @@ par défaut du navigateur.
 - **React 18 + Vite** — interface.
 - **Tailwind CSS** — thème sombre inspiré de l'esthétique Call of Duty.
 - **Supabase** — Auth (email/mot de passe + lien magique), Postgres
-  (table `progression`), Realtime (sync instantanée entre appareils).
+  (tables `progression` et `defi_overrides`), Realtime (sync instantanée
+  entre appareils).
 
 ## Structure du projet
 
 ```
 bo2-camo-tracker/
 ├── src/
-│   ├── data/weapons.json       # Armes, camouflages, défis (éditable)
+│   ├── data/weapons.json          # Armes, camouflages, défis (éditable)
 │   ├── lib/
 │   │   ├── supabaseClient.js
-│   │   └── weaponsUtils.js     # Calculs de progression
-│   ├── hooks/useProgression.js # Fetch + upsert + Realtime
+│   │   └── weaponsUtils.js        # Calculs de progression + fusion des corrections
+│   ├── hooks/
+│   │   ├── useProgression.js      # Fetch + upsert + Realtime (progression)
+│   │   └── useDefiOverrides.js    # Fetch + upsert + Realtime (corrections de défis)
 │   ├── context/AuthContext.jsx
 │   └── components/
 │       ├── Login.jsx
+│       ├── ResetPassword.jsx
 │       ├── Header.jsx
+│       ├── NextMilestones.jsx
 │       ├── CategoryList.jsx
 │       ├── WeaponCard.jsx
 │       ├── CamoSection.jsx
-│       ├── ChallengeRow.jsx
+│       ├── ChallengeRow.jsx       # Compteurs +1/-1 + mode édition des défis
 │       ├── ProgressBar.jsx
 │       └── ConfirmModal.jsx
-└── supabase/schema.sql         # Table + RLS + Realtime à exécuter sur Supabase
+└── supabase/schema.sql            # Tables + RLS + Realtime à exécuter sur Supabase
 ```

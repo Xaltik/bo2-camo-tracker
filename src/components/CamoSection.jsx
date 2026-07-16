@@ -14,7 +14,7 @@ const GLOW_CLASS = {
   diamant: 'animate-unlock-glow-diamant',
 }
 
-export default function CamoSection({ arme, camo, progressionMap, onDefiChange }) {
+export default function CamoSection({ arme, camo, progressionMap, onDefiChange, editing }) {
   const unlocked = isCamoUnlocked(arme.id, camo, progressionMap)
   const style = TYPE_STYLES[camo.type] ?? TYPE_STYLES.standard
   const wasUnlocked = useRef(unlocked)
@@ -72,6 +72,7 @@ export default function CamoSection({ arme, camo, progressionMap, onDefiChange }
                   camoNom: camo.nom,
                 })
               }
+              editing={editing}
             />
           )
         })}

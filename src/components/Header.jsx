@@ -24,6 +24,8 @@ export default function Header({
   onResetGlobal,
   userEmail,
   onSignOut,
+  editMode,
+  onToggleEditMode,
 }) {
   const [confirmOpen, setConfirmOpen] = useState(false)
 
@@ -71,6 +73,18 @@ export default function Header({
             placeholder="Rechercher une arme..."
             className="flex-1 bg-cod-panel2 border border-cod-border rounded px-3 py-2 text-sm focus:outline-none focus:border-cod-accent"
           />
+          <button
+            type="button"
+            onClick={onToggleEditMode}
+            className={`text-xs rounded px-2 py-2 border whitespace-nowrap ${
+              editMode
+                ? 'bg-cod-accent text-black font-semibold border-cod-accent'
+                : 'text-gray-400 border-cod-border hover:bg-cod-panel2'
+            }`}
+            title="Activer/désactiver l'édition des défis"
+          >
+            ✎ Édition
+          </button>
           <button
             type="button"
             onClick={() => setConfirmOpen(true)}

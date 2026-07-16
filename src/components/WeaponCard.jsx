@@ -4,7 +4,7 @@ import ProgressBar from './ProgressBar.jsx'
 import ConfirmModal from './ConfirmModal.jsx'
 import { computeArmeProgress } from '../lib/weaponsUtils.js'
 
-export default function WeaponCard({ arme, progressionMap, onDefiChange, onResetArme }) {
+export default function WeaponCard({ arme, progressionMap, onDefiChange, onResetArme, editing }) {
   const [open, setOpen] = useState(false)
   const [confirmOpen, setConfirmOpen] = useState(false)
   const progress = computeArmeProgress(arme, progressionMap)
@@ -42,6 +42,7 @@ export default function WeaponCard({ arme, progressionMap, onDefiChange, onReset
                 camo={camo}
                 progressionMap={progressionMap}
                 onDefiChange={onDefiChange}
+                editing={editing}
               />
             ))}
 
