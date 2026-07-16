@@ -83,6 +83,8 @@ export function computeNextMilestones(progressionMap, limit = 5) {
         for (const defi of camo.defis) {
           const compteurId = getCompteurId(arme.id, defi)
           const actuelle = progressionMap[compteurId]?.valeur_actuelle ?? 0
+          // Ignore les défis jamais commencés : on ne veut que les armes "en cours".
+          if (actuelle <= 0) continue
           if (actuelle >= defi.valeur_cible) continue
 
           const existing = bestByCompteur.get(compteurId)
