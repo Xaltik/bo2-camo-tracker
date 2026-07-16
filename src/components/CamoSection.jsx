@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from 'react'
 import ChallengeRow from './ChallengeRow.jsx'
 import { isCamoUnlocked, getCompteurId } from '../lib/weaponsUtils.js'
 
@@ -7,18 +8,44 @@ const TYPE_STYLES = {
   diamant: 'text-cod-diamond border-cod-diamond/60',
 }
 
+const GLOW_CLASS = {
+  standard: 'animate-unlock-glow-standard',
+  or: 'animate-unlock-glow-or',
+  diamant: 'animate-unlock-glow-diamant',
+}
+
 export default function CamoSection({ arme, camo, progressionMap, onDefiChange }) {
   const unlocked = isCamoUnlocked(arme.id, camo, progressionMap)
   const style = TYPE_STYLES[camo.type] ?? TYPE_STYLES.standard
+  const wasUnlocked = useRef(unlocked)
+  const [celebrate, setCelebrate] = useState(false)
+
+  useEffect(() => {
+    const justUnlocked = unlocked && !wasUnlocked.current
+    wasUnlocked.current = unlocked
+    if (justUnlocked) {
+      setCelebrate(true)
+      const timer = setTimeout(() => setCelebrate(false), 1600)
+      return () => clearTimeout(timer)
+    }
+  }, [unlocked])
+
+  const glowClass = celebrate ? (GLOW_CLASS[camo.type] ?? GLOW_CLASS.standard) : ''
 
   return (
-    <div className={`rounded-lg border ${style} bg-cod-panel2/40 p-3`}>
+    <div
+      className={`rounded-lg border ${style} bg-cod-panel2/40 p-3 ${glowClass} ${celebrate ? 'animate-unlock-pop' : ''}`}
+    >
       <div className="flex items-center justify-between mb-2">
         <h4 className={`text-sm font-bold uppercase tracking-wide ${style.split(' ')[0]}`}>
           {camo.nom}
         </h4>
         {unlocked && (
-          <span className={`text-xs font-semibold ${style.split(' ')[0]}`}>Débloqué</span>
+          <span
+            className={`text-xs font-semibold ${style.split(' ')[0]} ${celebrate ? 'animate-unlock-badge' : ''}`}
+          >
+            {celebrate ? 'Débloqué !' : 'Débloqué'}
+          </span>
         )}
       </div>
       {camo.defis.some((d) => d.compteur) && (
