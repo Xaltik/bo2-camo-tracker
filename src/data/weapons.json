@@ -1,7 +1,7 @@
 {
   "meta": {
     "jeu": "Call of Duty: Black Ops 2 (multijoueur)",
-    "note": "Données de départ : la liste des armes/catégories et l'échelle des 15 camouflages (DEVGRU → Or, + Diamant par catégorie) sont correctes. Les défis exacts ne sont confirmés que pour MP7, MTAR-21, MK48 (tirs à la tête), R870 MCS (éliminations en un coup) et les 4 fusils de précision (médailles \"Une balle, un mort\"), et seulement pour leurs 9 premiers paliers. Tout le reste (paliers 10 à 14, camouflage Or, et toutes les autres armes) est un défi générique PLACEHOLDER à corriger vous-même au fil de vos observations en jeu."
+    "note": "Données complétées à partir des retours en jeu de l'utilisateur (MP7 entièrement vérifié) et du guide gamerant.com/black-ops-2-camo-challenges-guide (recoupé avec les observations en jeu quand les deux étaient disponibles, l'observation en jeu ayant priorité en cas de désaccord — ex: fusils à pompe / précision). Le camouflage Or de chaque arme (compléter les 14 camouflages standards) et le Diamant (Or sur toute la catégorie) sont des mécaniques connues de BO2, pas du placeholder. Le reste est fiable mais pas vérifié in-game à 100% : à corriger si vous observez une différence en jouant."
   },
   "categories": [
     {
@@ -146,8 +146,8 @@
               "defis": [
                 {
                   "id": "mtar_21_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -159,8 +159,8 @@
               "defis": [
                 {
                   "id": "mtar_21_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme MTAR-21 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -172,8 +172,8 @@
               "defis": [
                 {
                   "id": "mtar_21_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme MTAR-21 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -185,8 +185,8 @@
               "defis": [
                 {
                   "id": "mtar_21_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -198,8 +198,8 @@
               "defis": [
                 {
                   "id": "mtar_21_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme MTAR-21",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -243,8 +243,9 @@
               "defis": [
                 {
                   "id": "type_25_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -256,8 +257,9 @@
               "defis": [
                 {
                   "id": "type_25_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -269,8 +271,9 @@
               "defis": [
                 {
                   "id": "type_25_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -282,8 +285,9 @@
               "defis": [
                 {
                   "id": "type_25_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -295,8 +299,9 @@
               "defis": [
                 {
                   "id": "type_25_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -308,8 +313,9 @@
               "defis": [
                 {
                   "id": "type_25_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -321,8 +327,9 @@
               "defis": [
                 {
                   "id": "type_25_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -334,8 +341,9 @@
               "defis": [
                 {
                   "id": "type_25_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -347,8 +355,9 @@
               "defis": [
                 {
                   "id": "type_25_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -360,8 +369,8 @@
               "defis": [
                 {
                   "id": "type_25_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -373,8 +382,8 @@
               "defis": [
                 {
                   "id": "type_25_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme Type 25 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -386,8 +395,8 @@
               "defis": [
                 {
                   "id": "type_25_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme Type 25 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -399,8 +408,8 @@
               "defis": [
                 {
                   "id": "type_25_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -412,8 +421,8 @@
               "defis": [
                 {
                   "id": "type_25_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme Type 25",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -457,8 +466,9 @@
               "defis": [
                 {
                   "id": "swat_556_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -470,8 +480,9 @@
               "defis": [
                 {
                   "id": "swat_556_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -483,8 +494,9 @@
               "defis": [
                 {
                   "id": "swat_556_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -496,8 +508,9 @@
               "defis": [
                 {
                   "id": "swat_556_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -509,8 +522,9 @@
               "defis": [
                 {
                   "id": "swat_556_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -522,8 +536,9 @@
               "defis": [
                 {
                   "id": "swat_556_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -535,8 +550,9 @@
               "defis": [
                 {
                   "id": "swat_556_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -548,8 +564,9 @@
               "defis": [
                 {
                   "id": "swat_556_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -561,8 +578,9 @@
               "defis": [
                 {
                   "id": "swat_556_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -574,8 +592,8 @@
               "defis": [
                 {
                   "id": "swat_556_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -587,8 +605,8 @@
               "defis": [
                 {
                   "id": "swat_556_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme SWAT-556 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -600,8 +618,8 @@
               "defis": [
                 {
                   "id": "swat_556_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme SWAT-556 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -613,8 +631,8 @@
               "defis": [
                 {
                   "id": "swat_556_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -626,8 +644,8 @@
               "defis": [
                 {
                   "id": "swat_556_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme SWAT-556",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -671,8 +689,9 @@
               "defis": [
                 {
                   "id": "fal_osw_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -684,8 +703,9 @@
               "defis": [
                 {
                   "id": "fal_osw_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -697,8 +717,9 @@
               "defis": [
                 {
                   "id": "fal_osw_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -710,8 +731,9 @@
               "defis": [
                 {
                   "id": "fal_osw_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -723,8 +745,9 @@
               "defis": [
                 {
                   "id": "fal_osw_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -736,8 +759,9 @@
               "defis": [
                 {
                   "id": "fal_osw_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -749,8 +773,9 @@
               "defis": [
                 {
                   "id": "fal_osw_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -762,8 +787,9 @@
               "defis": [
                 {
                   "id": "fal_osw_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -775,8 +801,9 @@
               "defis": [
                 {
                   "id": "fal_osw_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -788,8 +815,8 @@
               "defis": [
                 {
                   "id": "fal_osw_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -801,8 +828,8 @@
               "defis": [
                 {
                   "id": "fal_osw_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme FAL OSW et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -814,8 +841,8 @@
               "defis": [
                 {
                   "id": "fal_osw_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme FAL OSW et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -827,8 +854,8 @@
               "defis": [
                 {
                   "id": "fal_osw_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -840,8 +867,8 @@
               "defis": [
                 {
                   "id": "fal_osw_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme FAL OSW",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -885,8 +912,9 @@
               "defis": [
                 {
                   "id": "m27_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -898,8 +926,9 @@
               "defis": [
                 {
                   "id": "m27_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -911,8 +940,9 @@
               "defis": [
                 {
                   "id": "m27_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -924,8 +954,9 @@
               "defis": [
                 {
                   "id": "m27_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -937,8 +968,9 @@
               "defis": [
                 {
                   "id": "m27_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -950,8 +982,9 @@
               "defis": [
                 {
                   "id": "m27_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -963,8 +996,9 @@
               "defis": [
                 {
                   "id": "m27_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -976,8 +1010,9 @@
               "defis": [
                 {
                   "id": "m27_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -989,8 +1024,9 @@
               "defis": [
                 {
                   "id": "m27_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1002,8 +1038,8 @@
               "defis": [
                 {
                   "id": "m27_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -1015,8 +1051,8 @@
               "defis": [
                 {
                   "id": "m27_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme M27 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -1028,8 +1064,8 @@
               "defis": [
                 {
                   "id": "m27_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme M27 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -1041,8 +1077,8 @@
               "defis": [
                 {
                   "id": "m27_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -1054,8 +1090,8 @@
               "defis": [
                 {
                   "id": "m27_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme M27",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -1099,8 +1135,9 @@
               "defis": [
                 {
                   "id": "scar_h_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1112,8 +1149,9 @@
               "defis": [
                 {
                   "id": "scar_h_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1125,8 +1163,9 @@
               "defis": [
                 {
                   "id": "scar_h_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1138,8 +1177,9 @@
               "defis": [
                 {
                   "id": "scar_h_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1151,8 +1191,9 @@
               "defis": [
                 {
                   "id": "scar_h_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1164,8 +1205,9 @@
               "defis": [
                 {
                   "id": "scar_h_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1177,8 +1219,9 @@
               "defis": [
                 {
                   "id": "scar_h_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1190,8 +1233,9 @@
               "defis": [
                 {
                   "id": "scar_h_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1203,8 +1247,9 @@
               "defis": [
                 {
                   "id": "scar_h_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1216,8 +1261,8 @@
               "defis": [
                 {
                   "id": "scar_h_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -1229,8 +1274,8 @@
               "defis": [
                 {
                   "id": "scar_h_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme SCAR-H et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -1242,8 +1287,8 @@
               "defis": [
                 {
                   "id": "scar_h_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme SCAR-H et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -1255,8 +1300,8 @@
               "defis": [
                 {
                   "id": "scar_h_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -1268,8 +1313,8 @@
               "defis": [
                 {
                   "id": "scar_h_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme SCAR-H",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -1313,8 +1358,9 @@
               "defis": [
                 {
                   "id": "smr_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1326,8 +1372,9 @@
               "defis": [
                 {
                   "id": "smr_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1339,8 +1386,9 @@
               "defis": [
                 {
                   "id": "smr_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1352,8 +1400,9 @@
               "defis": [
                 {
                   "id": "smr_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1365,8 +1414,9 @@
               "defis": [
                 {
                   "id": "smr_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1378,8 +1428,9 @@
               "defis": [
                 {
                   "id": "smr_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1391,8 +1442,9 @@
               "defis": [
                 {
                   "id": "smr_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1404,8 +1456,9 @@
               "defis": [
                 {
                   "id": "smr_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1417,8 +1470,9 @@
               "defis": [
                 {
                   "id": "smr_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1430,8 +1484,8 @@
               "defis": [
                 {
                   "id": "smr_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -1443,8 +1497,8 @@
               "defis": [
                 {
                   "id": "smr_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme SMR et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -1456,8 +1510,8 @@
               "defis": [
                 {
                   "id": "smr_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme SMR et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -1469,8 +1523,8 @@
               "defis": [
                 {
                   "id": "smr_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -1482,8 +1536,8 @@
               "defis": [
                 {
                   "id": "smr_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme SMR",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -1527,8 +1581,9 @@
               "defis": [
                 {
                   "id": "m8a1_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1540,8 +1595,9 @@
               "defis": [
                 {
                   "id": "m8a1_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1553,8 +1609,9 @@
               "defis": [
                 {
                   "id": "m8a1_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1566,8 +1623,9 @@
               "defis": [
                 {
                   "id": "m8a1_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1579,8 +1637,9 @@
               "defis": [
                 {
                   "id": "m8a1_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1592,8 +1651,9 @@
               "defis": [
                 {
                   "id": "m8a1_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1605,8 +1665,9 @@
               "defis": [
                 {
                   "id": "m8a1_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1618,8 +1679,9 @@
               "defis": [
                 {
                   "id": "m8a1_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1631,8 +1693,9 @@
               "defis": [
                 {
                   "id": "m8a1_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1644,8 +1707,8 @@
               "defis": [
                 {
                   "id": "m8a1_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -1657,8 +1720,8 @@
               "defis": [
                 {
                   "id": "m8a1_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme M8A1 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -1670,8 +1733,8 @@
               "defis": [
                 {
                   "id": "m8a1_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme M8A1 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -1683,8 +1746,8 @@
               "defis": [
                 {
                   "id": "m8a1_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -1696,8 +1759,8 @@
               "defis": [
                 {
                   "id": "m8a1_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme M8A1",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -1741,8 +1804,9 @@
               "defis": [
                 {
                   "id": "an94_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1754,8 +1818,9 @@
               "defis": [
                 {
                   "id": "an94_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1767,8 +1832,9 @@
               "defis": [
                 {
                   "id": "an94_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1780,8 +1846,9 @@
               "defis": [
                 {
                   "id": "an94_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1793,8 +1860,9 @@
               "defis": [
                 {
                   "id": "an94_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1806,8 +1874,9 @@
               "defis": [
                 {
                   "id": "an94_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1819,8 +1888,9 @@
               "defis": [
                 {
                   "id": "an94_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1832,8 +1902,9 @@
               "defis": [
                 {
                   "id": "an94_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1845,8 +1916,9 @@
               "defis": [
                 {
                   "id": "an94_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -1858,8 +1930,8 @@
               "defis": [
                 {
                   "id": "an94_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -1871,8 +1943,8 @@
               "defis": [
                 {
                   "id": "an94_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme AN-94 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -1884,8 +1956,8 @@
               "defis": [
                 {
                   "id": "an94_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme AN-94 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -1897,8 +1969,8 @@
               "defis": [
                 {
                   "id": "an94_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -1910,8 +1982,8 @@
               "defis": [
                 {
                   "id": "an94_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme AN-94",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -2184,8 +2256,9 @@
               "defis": [
                 {
                   "id": "pdw_57_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2197,8 +2270,9 @@
               "defis": [
                 {
                   "id": "pdw_57_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2210,8 +2284,9 @@
               "defis": [
                 {
                   "id": "pdw_57_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2223,8 +2298,9 @@
               "defis": [
                 {
                   "id": "pdw_57_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2236,8 +2312,9 @@
               "defis": [
                 {
                   "id": "pdw_57_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2249,8 +2326,9 @@
               "defis": [
                 {
                   "id": "pdw_57_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2262,8 +2340,9 @@
               "defis": [
                 {
                   "id": "pdw_57_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2275,8 +2354,9 @@
               "defis": [
                 {
                   "id": "pdw_57_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2288,8 +2368,9 @@
               "defis": [
                 {
                   "id": "pdw_57_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2398,8 +2479,9 @@
               "defis": [
                 {
                   "id": "vector_k10_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2411,8 +2493,9 @@
               "defis": [
                 {
                   "id": "vector_k10_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2424,8 +2507,9 @@
               "defis": [
                 {
                   "id": "vector_k10_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2437,8 +2521,9 @@
               "defis": [
                 {
                   "id": "vector_k10_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2450,8 +2535,9 @@
               "defis": [
                 {
                   "id": "vector_k10_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2463,8 +2549,9 @@
               "defis": [
                 {
                   "id": "vector_k10_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2476,8 +2563,9 @@
               "defis": [
                 {
                   "id": "vector_k10_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2489,8 +2577,9 @@
               "defis": [
                 {
                   "id": "vector_k10_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2502,8 +2591,9 @@
               "defis": [
                 {
                   "id": "vector_k10_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2612,8 +2702,9 @@
               "defis": [
                 {
                   "id": "msmc_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2625,8 +2716,9 @@
               "defis": [
                 {
                   "id": "msmc_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2638,8 +2730,9 @@
               "defis": [
                 {
                   "id": "msmc_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2651,8 +2744,9 @@
               "defis": [
                 {
                   "id": "msmc_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2664,8 +2758,9 @@
               "defis": [
                 {
                   "id": "msmc_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2677,8 +2772,9 @@
               "defis": [
                 {
                   "id": "msmc_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2690,8 +2786,9 @@
               "defis": [
                 {
                   "id": "msmc_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2703,8 +2800,9 @@
               "defis": [
                 {
                   "id": "msmc_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2716,8 +2814,9 @@
               "defis": [
                 {
                   "id": "msmc_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2826,8 +2925,9 @@
               "defis": [
                 {
                   "id": "chicom_cqb_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2839,8 +2939,9 @@
               "defis": [
                 {
                   "id": "chicom_cqb_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2852,8 +2953,9 @@
               "defis": [
                 {
                   "id": "chicom_cqb_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2865,8 +2967,9 @@
               "defis": [
                 {
                   "id": "chicom_cqb_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2878,8 +2981,9 @@
               "defis": [
                 {
                   "id": "chicom_cqb_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2891,8 +2995,9 @@
               "defis": [
                 {
                   "id": "chicom_cqb_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2904,8 +3009,9 @@
               "defis": [
                 {
                   "id": "chicom_cqb_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2917,8 +3023,9 @@
               "defis": [
                 {
                   "id": "chicom_cqb_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -2930,8 +3037,9 @@
               "defis": [
                 {
                   "id": "chicom_cqb_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3040,8 +3148,9 @@
               "defis": [
                 {
                   "id": "skorpion_evo_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3053,8 +3162,9 @@
               "defis": [
                 {
                   "id": "skorpion_evo_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3066,8 +3176,9 @@
               "defis": [
                 {
                   "id": "skorpion_evo_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3079,8 +3190,9 @@
               "defis": [
                 {
                   "id": "skorpion_evo_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3092,8 +3204,9 @@
               "defis": [
                 {
                   "id": "skorpion_evo_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3105,8 +3218,9 @@
               "defis": [
                 {
                   "id": "skorpion_evo_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3118,8 +3232,9 @@
               "defis": [
                 {
                   "id": "skorpion_evo_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3131,8 +3246,9 @@
               "defis": [
                 {
                   "id": "skorpion_evo_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3144,8 +3260,9 @@
               "defis": [
                 {
                   "id": "skorpion_evo_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3254,8 +3371,9 @@
               "defis": [
                 {
                   "id": "peacekeeper_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3267,8 +3385,9 @@
               "defis": [
                 {
                   "id": "peacekeeper_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3280,8 +3399,9 @@
               "defis": [
                 {
                   "id": "peacekeeper_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3293,8 +3413,9 @@
               "defis": [
                 {
                   "id": "peacekeeper_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3306,8 +3427,9 @@
               "defis": [
                 {
                   "id": "peacekeeper_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3319,8 +3441,9 @@
               "defis": [
                 {
                   "id": "peacekeeper_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3332,8 +3455,9 @@
               "defis": [
                 {
                   "id": "peacekeeper_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3345,8 +3469,9 @@
               "defis": [
                 {
                   "id": "peacekeeper_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3358,8 +3483,9 @@
               "defis": [
                 {
                   "id": "peacekeeper_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3600,8 +3726,8 @@
               "defis": [
                 {
                   "id": "mk48_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -3613,8 +3739,8 @@
               "defis": [
                 {
                   "id": "mk48_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme MK48 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -3626,8 +3752,8 @@
               "defis": [
                 {
                   "id": "mk48_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme MK48 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -3639,8 +3765,8 @@
               "defis": [
                 {
                   "id": "mk48_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -3652,8 +3778,8 @@
               "defis": [
                 {
                   "id": "mk48_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme MK48",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -3697,8 +3823,9 @@
               "defis": [
                 {
                   "id": "qbb_lsw_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3710,8 +3837,9 @@
               "defis": [
                 {
                   "id": "qbb_lsw_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3723,8 +3851,9 @@
               "defis": [
                 {
                   "id": "qbb_lsw_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3736,8 +3865,9 @@
               "defis": [
                 {
                   "id": "qbb_lsw_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3749,8 +3879,9 @@
               "defis": [
                 {
                   "id": "qbb_lsw_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3762,8 +3893,9 @@
               "defis": [
                 {
                   "id": "qbb_lsw_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3775,8 +3907,9 @@
               "defis": [
                 {
                   "id": "qbb_lsw_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3788,8 +3921,9 @@
               "defis": [
                 {
                   "id": "qbb_lsw_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3801,8 +3935,9 @@
               "defis": [
                 {
                   "id": "qbb_lsw_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3814,8 +3949,8 @@
               "defis": [
                 {
                   "id": "qbb_lsw_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -3827,8 +3962,8 @@
               "defis": [
                 {
                   "id": "qbb_lsw_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme QBB LSW et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -3840,8 +3975,8 @@
               "defis": [
                 {
                   "id": "qbb_lsw_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme QBB LSW et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -3853,8 +3988,8 @@
               "defis": [
                 {
                   "id": "qbb_lsw_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -3866,8 +4001,8 @@
               "defis": [
                 {
                   "id": "qbb_lsw_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme QBB LSW",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -3911,8 +4046,9 @@
               "defis": [
                 {
                   "id": "lsat_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3924,8 +4060,9 @@
               "defis": [
                 {
                   "id": "lsat_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3937,8 +4074,9 @@
               "defis": [
                 {
                   "id": "lsat_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3950,8 +4088,9 @@
               "defis": [
                 {
                   "id": "lsat_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3963,8 +4102,9 @@
               "defis": [
                 {
                   "id": "lsat_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3976,8 +4116,9 @@
               "defis": [
                 {
                   "id": "lsat_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -3989,8 +4130,9 @@
               "defis": [
                 {
                   "id": "lsat_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4002,8 +4144,9 @@
               "defis": [
                 {
                   "id": "lsat_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4015,8 +4158,9 @@
               "defis": [
                 {
                   "id": "lsat_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4028,8 +4172,8 @@
               "defis": [
                 {
                   "id": "lsat_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -4041,8 +4185,8 @@
               "defis": [
                 {
                   "id": "lsat_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme LSAT et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -4054,8 +4198,8 @@
               "defis": [
                 {
                   "id": "lsat_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme LSAT et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -4067,8 +4211,8 @@
               "defis": [
                 {
                   "id": "lsat_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -4080,8 +4224,8 @@
               "defis": [
                 {
                   "id": "lsat_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme LSAT",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -4125,8 +4269,9 @@
               "defis": [
                 {
                   "id": "hamr_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4138,8 +4283,9 @@
               "defis": [
                 {
                   "id": "hamr_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4151,8 +4297,9 @@
               "defis": [
                 {
                   "id": "hamr_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4164,8 +4311,9 @@
               "defis": [
                 {
                   "id": "hamr_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4177,8 +4325,9 @@
               "defis": [
                 {
                   "id": "hamr_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4190,8 +4339,9 @@
               "defis": [
                 {
                   "id": "hamr_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4203,8 +4353,9 @@
               "defis": [
                 {
                   "id": "hamr_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4216,8 +4367,9 @@
               "defis": [
                 {
                   "id": "hamr_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4229,8 +4381,9 @@
               "defis": [
                 {
                   "id": "hamr_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -4242,8 +4395,8 @@
               "defis": [
                 {
                   "id": "hamr_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -4255,8 +4408,8 @@
               "defis": [
                 {
                   "id": "hamr_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme HAMR et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -4268,8 +4421,8 @@
               "defis": [
                 {
                   "id": "hamr_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme HAMR et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -4281,8 +4434,8 @@
               "defis": [
                 {
                   "id": "hamr_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -4294,8 +4447,8 @@
               "defis": [
                 {
                   "id": "hamr_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme HAMR",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -4471,8 +4624,8 @@
               "defis": [
                 {
                   "id": "svu_as_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 10 tirs à longue distance (médaille Longshot)",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -4484,8 +4637,8 @@
               "defis": [
                 {
                   "id": "svu_as_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 50 éliminations avec l'arme SVU-AS et sans accessoires",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -4497,8 +4650,8 @@
               "defis": [
                 {
                   "id": "svu_as_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 50 éliminations avec l'arme SVU-AS et aucun atout équipé",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -4510,8 +4663,8 @@
               "defis": [
                 {
                   "id": "svu_as_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 5 médailles Double meurtre",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -4523,8 +4676,8 @@
               "defis": [
                 {
                   "id": "svu_as_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme SVU-AS",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -4694,8 +4847,8 @@
               "defis": [
                 {
                   "id": "dsr_50_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 10 tirs à longue distance (médaille Longshot)",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -4707,8 +4860,8 @@
               "defis": [
                 {
                   "id": "dsr_50_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 50 éliminations avec l'arme DSR 50 et sans accessoires",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -4720,8 +4873,8 @@
               "defis": [
                 {
                   "id": "dsr_50_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 50 éliminations avec l'arme DSR 50 et aucun atout équipé",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -4733,8 +4886,8 @@
               "defis": [
                 {
                   "id": "dsr_50_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 5 médailles Double meurtre",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -4746,8 +4899,8 @@
               "defis": [
                 {
                   "id": "dsr_50_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme DSR 50",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -4917,8 +5070,8 @@
               "defis": [
                 {
                   "id": "ballista_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 10 tirs à longue distance (médaille Longshot)",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -4930,8 +5083,8 @@
               "defis": [
                 {
                   "id": "ballista_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 50 éliminations avec l'arme Ballista et sans accessoires",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -4943,8 +5096,8 @@
               "defis": [
                 {
                   "id": "ballista_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 50 éliminations avec l'arme Ballista et aucun atout équipé",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -4956,8 +5109,8 @@
               "defis": [
                 {
                   "id": "ballista_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 5 médailles Double meurtre",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -4969,8 +5122,8 @@
               "defis": [
                 {
                   "id": "ballista_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme Ballista",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -5140,8 +5293,8 @@
               "defis": [
                 {
                   "id": "xpr_50_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 10 tirs à longue distance (médaille Longshot)",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -5153,8 +5306,8 @@
               "defis": [
                 {
                   "id": "xpr_50_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 50 éliminations avec l'arme XPR-50 et sans accessoires",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -5166,8 +5319,8 @@
               "defis": [
                 {
                   "id": "xpr_50_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 50 éliminations avec l'arme XPR-50 et aucun atout équipé",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -5179,8 +5332,8 @@
               "defis": [
                 {
                   "id": "xpr_50_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 5 médailles Double meurtre",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -5192,8 +5345,8 @@
               "defis": [
                 {
                   "id": "xpr_50_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme XPR-50",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -5369,8 +5522,8 @@
               "defis": [
                 {
                   "id": "r870_mcs_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -5382,8 +5535,8 @@
               "defis": [
                 {
                   "id": "r870_mcs_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 50 éliminations avec l'arme R870 MCS et sans accessoires",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -5395,8 +5548,8 @@
               "defis": [
                 {
                   "id": "r870_mcs_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 50 éliminations avec l'arme R870 MCS et aucun atout équipé",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -5408,8 +5561,8 @@
               "defis": [
                 {
                   "id": "r870_mcs_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 5 médailles Double meurtre",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -5421,8 +5574,8 @@
               "defis": [
                 {
                   "id": "r870_mcs_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme R870 MCS",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -5466,8 +5619,9 @@
               "defis": [
                 {
                   "id": "s12_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 éliminations en un coup",
+                  "valeur_cible": 5,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5479,8 +5633,9 @@
               "defis": [
                 {
                   "id": "s12_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 éliminations en un coup",
+                  "valeur_cible": 10,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5492,8 +5647,9 @@
               "defis": [
                 {
                   "id": "s12_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 25 éliminations en un coup",
+                  "valeur_cible": 25,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5505,8 +5661,9 @@
               "defis": [
                 {
                   "id": "s12_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 50 éliminations en un coup",
+                  "valeur_cible": 50,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5518,8 +5675,9 @@
               "defis": [
                 {
                   "id": "s12_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 75 éliminations en un coup",
+                  "valeur_cible": 75,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5531,8 +5689,9 @@
               "defis": [
                 {
                   "id": "s12_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 100 éliminations en un coup",
+                  "valeur_cible": 100,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5544,8 +5703,9 @@
               "defis": [
                 {
                   "id": "s12_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 150 éliminations en un coup",
+                  "valeur_cible": 150,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5557,8 +5717,9 @@
               "defis": [
                 {
                   "id": "s12_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 200 éliminations en un coup",
+                  "valeur_cible": 200,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5570,8 +5731,9 @@
               "defis": [
                 {
                   "id": "s12_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 250 éliminations en un coup",
+                  "valeur_cible": 250,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5583,8 +5745,8 @@
               "defis": [
                 {
                   "id": "s12_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -5596,8 +5758,8 @@
               "defis": [
                 {
                   "id": "s12_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 50 éliminations avec l'arme S12 et sans accessoires",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -5609,8 +5771,8 @@
               "defis": [
                 {
                   "id": "s12_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 50 éliminations avec l'arme S12 et aucun atout équipé",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -5622,8 +5784,8 @@
               "defis": [
                 {
                   "id": "s12_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 5 médailles Double meurtre",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -5635,8 +5797,8 @@
               "defis": [
                 {
                   "id": "s12_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme S12",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -5680,8 +5842,9 @@
               "defis": [
                 {
                   "id": "ksg_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 éliminations en un coup",
+                  "valeur_cible": 5,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5693,8 +5856,9 @@
               "defis": [
                 {
                   "id": "ksg_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 éliminations en un coup",
+                  "valeur_cible": 10,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5706,8 +5870,9 @@
               "defis": [
                 {
                   "id": "ksg_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 25 éliminations en un coup",
+                  "valeur_cible": 25,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5719,8 +5884,9 @@
               "defis": [
                 {
                   "id": "ksg_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 50 éliminations en un coup",
+                  "valeur_cible": 50,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5732,8 +5898,9 @@
               "defis": [
                 {
                   "id": "ksg_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 75 éliminations en un coup",
+                  "valeur_cible": 75,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5745,8 +5912,9 @@
               "defis": [
                 {
                   "id": "ksg_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 100 éliminations en un coup",
+                  "valeur_cible": 100,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5758,8 +5926,9 @@
               "defis": [
                 {
                   "id": "ksg_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 150 éliminations en un coup",
+                  "valeur_cible": 150,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5771,8 +5940,9 @@
               "defis": [
                 {
                   "id": "ksg_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 200 éliminations en un coup",
+                  "valeur_cible": 200,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5784,8 +5954,9 @@
               "defis": [
                 {
                   "id": "ksg_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 250 éliminations en un coup",
+                  "valeur_cible": 250,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5797,8 +5968,8 @@
               "defis": [
                 {
                   "id": "ksg_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -5810,8 +5981,8 @@
               "defis": [
                 {
                   "id": "ksg_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 50 éliminations avec l'arme KSG et sans accessoires",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -5823,8 +5994,8 @@
               "defis": [
                 {
                   "id": "ksg_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 50 éliminations avec l'arme KSG et aucun atout équipé",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -5836,8 +6007,8 @@
               "defis": [
                 {
                   "id": "ksg_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 5 médailles Double meurtre",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -5849,8 +6020,8 @@
               "defis": [
                 {
                   "id": "ksg_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme KSG",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -5894,8 +6065,9 @@
               "defis": [
                 {
                   "id": "m1216_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 éliminations en un coup",
+                  "valeur_cible": 5,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5907,8 +6079,9 @@
               "defis": [
                 {
                   "id": "m1216_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 éliminations en un coup",
+                  "valeur_cible": 10,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5920,8 +6093,9 @@
               "defis": [
                 {
                   "id": "m1216_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 25 éliminations en un coup",
+                  "valeur_cible": 25,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5933,8 +6107,9 @@
               "defis": [
                 {
                   "id": "m1216_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 50 éliminations en un coup",
+                  "valeur_cible": 50,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5946,8 +6121,9 @@
               "defis": [
                 {
                   "id": "m1216_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 75 éliminations en un coup",
+                  "valeur_cible": 75,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5959,8 +6135,9 @@
               "defis": [
                 {
                   "id": "m1216_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 100 éliminations en un coup",
+                  "valeur_cible": 100,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5972,8 +6149,9 @@
               "defis": [
                 {
                   "id": "m1216_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 150 éliminations en un coup",
+                  "valeur_cible": 150,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5985,8 +6163,9 @@
               "defis": [
                 {
                   "id": "m1216_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 200 éliminations en un coup",
+                  "valeur_cible": 200,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -5998,8 +6177,9 @@
               "defis": [
                 {
                   "id": "m1216_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 250 éliminations en un coup",
+                  "valeur_cible": 250,
+                  "compteur": "Éliminations en un coup"
                 }
               ]
             },
@@ -6011,8 +6191,8 @@
               "defis": [
                 {
                   "id": "m1216_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -6024,8 +6204,8 @@
               "defis": [
                 {
                   "id": "m1216_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 50 éliminations avec l'arme M1216 et sans accessoires",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -6037,8 +6217,8 @@
               "defis": [
                 {
                   "id": "m1216_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 50 éliminations avec l'arme M1216 et aucun atout équipé",
+                  "valeur_cible": 50
                 }
               ]
             },
@@ -6050,8 +6230,8 @@
               "defis": [
                 {
                   "id": "m1216_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 5 médailles Double meurtre",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -6063,8 +6243,8 @@
               "defis": [
                 {
                   "id": "m1216_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme M1216",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -6114,8 +6294,9 @@
               "defis": [
                 {
                   "id": "five_seven_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6127,8 +6308,9 @@
               "defis": [
                 {
                   "id": "five_seven_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6140,8 +6322,9 @@
               "defis": [
                 {
                   "id": "five_seven_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6153,8 +6336,9 @@
               "defis": [
                 {
                   "id": "five_seven_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6166,8 +6350,9 @@
               "defis": [
                 {
                   "id": "five_seven_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6179,8 +6364,9 @@
               "defis": [
                 {
                   "id": "five_seven_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6192,8 +6378,9 @@
               "defis": [
                 {
                   "id": "five_seven_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6205,8 +6392,9 @@
               "defis": [
                 {
                   "id": "five_seven_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6218,8 +6406,9 @@
               "defis": [
                 {
                   "id": "five_seven_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6231,8 +6420,8 @@
               "defis": [
                 {
                   "id": "five_seven_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -6244,8 +6433,8 @@
               "defis": [
                 {
                   "id": "five_seven_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme Five-Seven et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -6257,8 +6446,8 @@
               "defis": [
                 {
                   "id": "five_seven_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme Five-Seven et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -6270,8 +6459,8 @@
               "defis": [
                 {
                   "id": "five_seven_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -6283,8 +6472,8 @@
               "defis": [
                 {
                   "id": "five_seven_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme Five-Seven",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -6328,8 +6517,9 @@
               "defis": [
                 {
                   "id": "tac_45_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6341,8 +6531,9 @@
               "defis": [
                 {
                   "id": "tac_45_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6354,8 +6545,9 @@
               "defis": [
                 {
                   "id": "tac_45_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6367,8 +6559,9 @@
               "defis": [
                 {
                   "id": "tac_45_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6380,8 +6573,9 @@
               "defis": [
                 {
                   "id": "tac_45_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6393,8 +6587,9 @@
               "defis": [
                 {
                   "id": "tac_45_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6406,8 +6601,9 @@
               "defis": [
                 {
                   "id": "tac_45_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6419,8 +6615,9 @@
               "defis": [
                 {
                   "id": "tac_45_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6432,8 +6629,9 @@
               "defis": [
                 {
                   "id": "tac_45_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6445,8 +6643,8 @@
               "defis": [
                 {
                   "id": "tac_45_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -6458,8 +6656,8 @@
               "defis": [
                 {
                   "id": "tac_45_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme Tac-45 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -6471,8 +6669,8 @@
               "defis": [
                 {
                   "id": "tac_45_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme Tac-45 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -6484,8 +6682,8 @@
               "defis": [
                 {
                   "id": "tac_45_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -6497,8 +6695,8 @@
               "defis": [
                 {
                   "id": "tac_45_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme Tac-45",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -6542,8 +6740,9 @@
               "defis": [
                 {
                   "id": "b23r_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6555,8 +6754,9 @@
               "defis": [
                 {
                   "id": "b23r_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6568,8 +6768,9 @@
               "defis": [
                 {
                   "id": "b23r_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6581,8 +6782,9 @@
               "defis": [
                 {
                   "id": "b23r_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6594,8 +6796,9 @@
               "defis": [
                 {
                   "id": "b23r_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6607,8 +6810,9 @@
               "defis": [
                 {
                   "id": "b23r_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6620,8 +6824,9 @@
               "defis": [
                 {
                   "id": "b23r_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6633,8 +6838,9 @@
               "defis": [
                 {
                   "id": "b23r_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6646,8 +6852,9 @@
               "defis": [
                 {
                   "id": "b23r_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6659,8 +6866,8 @@
               "defis": [
                 {
                   "id": "b23r_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -6672,8 +6879,8 @@
               "defis": [
                 {
                   "id": "b23r_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme B23R et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -6685,8 +6892,8 @@
               "defis": [
                 {
                   "id": "b23r_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme B23R et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -6698,8 +6905,8 @@
               "defis": [
                 {
                   "id": "b23r_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -6711,8 +6918,8 @@
               "defis": [
                 {
                   "id": "b23r_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme B23R",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -6756,8 +6963,9 @@
               "defis": [
                 {
                   "id": "executioner_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6769,8 +6977,9 @@
               "defis": [
                 {
                   "id": "executioner_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6782,8 +6991,9 @@
               "defis": [
                 {
                   "id": "executioner_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6795,8 +7005,9 @@
               "defis": [
                 {
                   "id": "executioner_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6808,8 +7019,9 @@
               "defis": [
                 {
                   "id": "executioner_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6821,8 +7033,9 @@
               "defis": [
                 {
                   "id": "executioner_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6834,8 +7047,9 @@
               "defis": [
                 {
                   "id": "executioner_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6847,8 +7061,9 @@
               "defis": [
                 {
                   "id": "executioner_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6860,8 +7075,9 @@
               "defis": [
                 {
                   "id": "executioner_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6873,8 +7089,8 @@
               "defis": [
                 {
                   "id": "executioner_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -6886,8 +7102,8 @@
               "defis": [
                 {
                   "id": "executioner_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme Exécuteur et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -6899,8 +7115,8 @@
               "defis": [
                 {
                   "id": "executioner_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme Exécuteur et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -6912,8 +7128,8 @@
               "defis": [
                 {
                   "id": "executioner_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -6925,8 +7141,8 @@
               "defis": [
                 {
                   "id": "executioner_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme Exécuteur",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -6970,8 +7186,9 @@
               "defis": [
                 {
                   "id": "kap_40_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 tirs à la tête",
+                  "valeur_cible": 5,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6983,8 +7200,9 @@
               "defis": [
                 {
                   "id": "kap_40_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 tirs à la tête",
+                  "valeur_cible": 10,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -6996,8 +7214,9 @@
               "defis": [
                 {
                   "id": "kap_40_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 tirs à la tête",
+                  "valeur_cible": 15,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -7009,8 +7228,9 @@
               "defis": [
                 {
                   "id": "kap_40_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 tirs à la tête",
+                  "valeur_cible": 20,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -7022,8 +7242,9 @@
               "defis": [
                 {
                   "id": "kap_40_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 tirs à la tête",
+                  "valeur_cible": 30,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -7035,8 +7256,9 @@
               "defis": [
                 {
                   "id": "kap_40_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 tirs à la tête",
+                  "valeur_cible": 40,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -7048,8 +7270,9 @@
               "defis": [
                 {
                   "id": "kap_40_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 tirs à la tête",
+                  "valeur_cible": 50,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -7061,8 +7284,9 @@
               "defis": [
                 {
                   "id": "kap_40_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 tirs à la tête",
+                  "valeur_cible": 75,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -7074,8 +7298,9 @@
               "defis": [
                 {
                   "id": "kap_40_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 tirs à la tête",
+                  "valeur_cible": 100,
+                  "compteur": "Tirs à la tête"
                 }
               ]
             },
@@ -7087,8 +7312,8 @@
               "defis": [
                 {
                   "id": "kap_40_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 30 médailles Vengeance",
+                  "valeur_cible": 30
                 }
               ]
             },
@@ -7100,8 +7325,8 @@
               "defis": [
                 {
                   "id": "kap_40_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 150 éliminations avec l'arme Kap-40 et sans accessoires",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -7113,8 +7338,8 @@
               "defis": [
                 {
                   "id": "kap_40_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 150 éliminations avec l'arme Kap-40 et aucun atout équipé",
+                  "valeur_cible": 150
                 }
               ]
             },
@@ -7126,8 +7351,8 @@
               "defis": [
                 {
                   "id": "kap_40_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 20 médailles Double meurtre",
+                  "valeur_cible": 20
                 }
               ]
             },
@@ -7139,8 +7364,8 @@
               "defis": [
                 {
                   "id": "kap_40_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 10 médailles Sanguinaire en utilisant uniquement l'arme Kap-40",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -7190,8 +7415,9 @@
               "defis": [
                 {
                   "id": "smaw_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Détruire 5 aéronefs",
+                  "valeur_cible": 5,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7203,8 +7429,9 @@
               "defis": [
                 {
                   "id": "smaw_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Détruire 10 aéronefs",
+                  "valeur_cible": 10,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7216,8 +7443,9 @@
               "defis": [
                 {
                   "id": "smaw_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Détruire 20 aéronefs",
+                  "valeur_cible": 20,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7229,8 +7457,9 @@
               "defis": [
                 {
                   "id": "smaw_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Détruire 30 aéronefs",
+                  "valeur_cible": 30,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7242,8 +7471,9 @@
               "defis": [
                 {
                   "id": "smaw_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Détruire 40 aéronefs",
+                  "valeur_cible": 40,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7255,8 +7485,9 @@
               "defis": [
                 {
                   "id": "smaw_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Détruire 50 aéronefs",
+                  "valeur_cible": 50,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7268,8 +7499,9 @@
               "defis": [
                 {
                   "id": "smaw_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Détruire 60 aéronefs",
+                  "valeur_cible": 60,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7281,8 +7513,9 @@
               "defis": [
                 {
                   "id": "smaw_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Détruire 75 aéronefs",
+                  "valeur_cible": 75,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7294,8 +7527,9 @@
               "defis": [
                 {
                   "id": "smaw_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Détruire 100 aéronefs",
+                  "valeur_cible": 100,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7307,8 +7541,8 @@
               "defis": [
                 {
                   "id": "smaw_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 10 éliminations par impact direct",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -7320,8 +7554,8 @@
               "defis": [
                 {
                   "id": "smaw_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Détruire 5 aéronefs au cours d'une même partie",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -7333,8 +7567,8 @@
               "defis": [
                 {
                   "id": "smaw_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 1 élimination depuis une voiture",
+                  "valeur_cible": 1
                 }
               ]
             },
@@ -7346,8 +7580,8 @@
               "defis": [
                 {
                   "id": "smaw_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 5 médailles Double meurtre",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -7359,8 +7593,8 @@
               "defis": [
                 {
                   "id": "smaw_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Détruire 1 Dragonfire",
+                  "valeur_cible": 1
                 }
               ]
             },
@@ -7404,8 +7638,9 @@
               "defis": [
                 {
                   "id": "fhj_18_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Détruire 5 aéronefs",
+                  "valeur_cible": 5,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7417,8 +7652,9 @@
               "defis": [
                 {
                   "id": "fhj_18_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Détruire 10 aéronefs",
+                  "valeur_cible": 10,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7430,8 +7666,9 @@
               "defis": [
                 {
                   "id": "fhj_18_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Détruire 20 aéronefs",
+                  "valeur_cible": 20,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7443,8 +7680,9 @@
               "defis": [
                 {
                   "id": "fhj_18_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Détruire 30 aéronefs",
+                  "valeur_cible": 30,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7456,8 +7694,9 @@
               "defis": [
                 {
                   "id": "fhj_18_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Détruire 40 aéronefs",
+                  "valeur_cible": 40,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7469,8 +7708,9 @@
               "defis": [
                 {
                   "id": "fhj_18_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Détruire 50 aéronefs",
+                  "valeur_cible": 50,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7482,8 +7722,9 @@
               "defis": [
                 {
                   "id": "fhj_18_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Détruire 60 aéronefs",
+                  "valeur_cible": 60,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7495,8 +7736,9 @@
               "defis": [
                 {
                   "id": "fhj_18_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Détruire 75 aéronefs",
+                  "valeur_cible": 75,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7508,8 +7750,9 @@
               "defis": [
                 {
                   "id": "fhj_18_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Détruire 100 aéronefs",
+                  "valeur_cible": 100,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7521,8 +7764,8 @@
               "defis": [
                 {
                   "id": "fhj_18_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 10 éliminations par impact direct",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -7534,8 +7777,8 @@
               "defis": [
                 {
                   "id": "fhj_18_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Détruire 5 aéronefs au cours d'une même partie",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -7547,8 +7790,8 @@
               "defis": [
                 {
                   "id": "fhj_18_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 1 élimination depuis une voiture",
+                  "valeur_cible": 1
                 }
               ]
             },
@@ -7560,8 +7803,8 @@
               "defis": [
                 {
                   "id": "fhj_18_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 5 médailles Double meurtre",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -7573,8 +7816,8 @@
               "defis": [
                 {
                   "id": "fhj_18_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Détruire 1 Dragonfire",
+                  "valeur_cible": 1
                 }
               ]
             },
@@ -7618,8 +7861,9 @@
               "defis": [
                 {
                   "id": "china_lake_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Détruire 5 aéronefs",
+                  "valeur_cible": 5,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7631,8 +7875,9 @@
               "defis": [
                 {
                   "id": "china_lake_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Détruire 10 aéronefs",
+                  "valeur_cible": 10,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7644,8 +7889,9 @@
               "defis": [
                 {
                   "id": "china_lake_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Détruire 20 aéronefs",
+                  "valeur_cible": 20,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7657,8 +7903,9 @@
               "defis": [
                 {
                   "id": "china_lake_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Détruire 30 aéronefs",
+                  "valeur_cible": 30,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7670,8 +7917,9 @@
               "defis": [
                 {
                   "id": "china_lake_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Détruire 40 aéronefs",
+                  "valeur_cible": 40,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7683,8 +7931,9 @@
               "defis": [
                 {
                   "id": "china_lake_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Détruire 50 aéronefs",
+                  "valeur_cible": 50,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7696,8 +7945,9 @@
               "defis": [
                 {
                   "id": "china_lake_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Détruire 60 aéronefs",
+                  "valeur_cible": 60,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7709,8 +7959,9 @@
               "defis": [
                 {
                   "id": "china_lake_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Détruire 75 aéronefs",
+                  "valeur_cible": 75,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7722,8 +7973,9 @@
               "defis": [
                 {
                   "id": "china_lake_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Détruire 100 aéronefs",
+                  "valeur_cible": 100,
+                  "compteur": "Destructions d'aéronefs"
                 }
               ]
             },
@@ -7735,8 +7987,8 @@
               "defis": [
                 {
                   "id": "china_lake_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 10 éliminations par impact direct",
+                  "valeur_cible": 10
                 }
               ]
             },
@@ -7748,8 +8000,8 @@
               "defis": [
                 {
                   "id": "china_lake_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Détruire 5 aéronefs au cours d'une même partie",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -7761,8 +8013,8 @@
               "defis": [
                 {
                   "id": "china_lake_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 1 élimination depuis une voiture",
+                  "valeur_cible": 1
                 }
               ]
             },
@@ -7774,8 +8026,8 @@
               "defis": [
                 {
                   "id": "china_lake_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 5 médailles Double meurtre",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -7787,8 +8039,8 @@
               "defis": [
                 {
                   "id": "china_lake_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Détruire 1 Dragonfire",
+                  "valeur_cible": 1
                 }
               ]
             },
@@ -7838,8 +8090,9 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 5 kills",
+                  "valeur_cible": 5,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -7851,8 +8104,9 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 10 kills",
+                  "valeur_cible": 10,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -7864,8 +8118,9 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 15 kills",
+                  "valeur_cible": 15,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -7877,8 +8132,9 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 20 kills",
+                  "valeur_cible": 20,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -7890,8 +8146,9 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 30 kills",
+                  "valeur_cible": 30,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -7903,8 +8160,9 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 40 kills",
+                  "valeur_cible": 40,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -7916,8 +8174,9 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 50 kills",
+                  "valeur_cible": 50,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -7929,8 +8188,9 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 75 kills",
+                  "valeur_cible": 75,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -7942,8 +8202,9 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 100 kills",
+                  "valeur_cible": 100,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -7955,8 +8216,8 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir un score de 1000 en bloquant des tirs ennemis avec le bouclier",
+                  "valeur_cible": 1000
                 }
               ]
             },
@@ -7968,8 +8229,8 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 25 kills à la hachette en tenant le bouclier d'assaut",
+                  "valeur_cible": 25
                 }
               ]
             },
@@ -7981,8 +8242,8 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 25 médailles Coup de bouclier",
+                  "valeur_cible": 25
                 }
               ]
             },
@@ -7994,8 +8255,8 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 25 kills sans atout équipé",
+                  "valeur_cible": 25
                 }
               ]
             },
@@ -8007,8 +8268,8 @@
               "defis": [
                 {
                   "id": "bouclier_assaut_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 25 kills avec le bouclier d'assaut et aucune arme",
+                  "valeur_cible": 25
                 }
               ]
             },
@@ -8034,7 +8295,7 @@
                 {
                   "id": "bouclier_assaut_diamant",
                   "description": "Obtenir le camouflage Or sur toutes les armes de la catégorie (Spéciales)",
-                  "valeur_cible": 3
+                  "valeur_cible": 4
                 }
               ]
             }
@@ -8052,8 +8313,9 @@
               "defis": [
                 {
                   "id": "arbalete_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 25 kills",
+                  "valeur_cible": 25,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8065,8 +8327,9 @@
               "defis": [
                 {
                   "id": "arbalete_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 50 kills",
+                  "valeur_cible": 50,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8078,8 +8341,9 @@
               "defis": [
                 {
                   "id": "arbalete_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 75 kills",
+                  "valeur_cible": 75,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8091,8 +8355,9 @@
               "defis": [
                 {
                   "id": "arbalete_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 100 kills",
+                  "valeur_cible": 100,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8104,8 +8369,9 @@
               "defis": [
                 {
                   "id": "arbalete_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 125 kills",
+                  "valeur_cible": 125,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8117,8 +8383,9 @@
               "defis": [
                 {
                   "id": "arbalete_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 150 kills",
+                  "valeur_cible": 150,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8130,8 +8397,9 @@
               "defis": [
                 {
                   "id": "arbalete_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 200 kills",
+                  "valeur_cible": 200,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8143,8 +8411,9 @@
               "defis": [
                 {
                   "id": "arbalete_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 250 kills",
+                  "valeur_cible": 250,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8156,8 +8425,9 @@
               "defis": [
                 {
                   "id": "arbalete_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 300 kills",
+                  "valeur_cible": 300,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8169,8 +8439,8 @@
               "defis": [
                 {
                   "id": "arbalete_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Obtenir 1 médaille Double meurtre",
+                  "valeur_cible": 1
                 }
               ]
             },
@@ -8182,8 +8452,8 @@
               "defis": [
                 {
                   "id": "arbalete_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Tuer 5 fois le joueur qui vous a tué",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -8195,8 +8465,8 @@
               "defis": [
                 {
                   "id": "arbalete_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 1 élimination depuis une voiture",
+                  "valeur_cible": 1
                 }
               ]
             },
@@ -8208,8 +8478,8 @@
               "defis": [
                 {
                   "id": "arbalete_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 1 médaille Sanguinaire",
+                  "valeur_cible": 1
                 }
               ]
             },
@@ -8221,8 +8491,8 @@
               "defis": [
                 {
                   "id": "arbalete_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Réussir un kill avec chaque munition d'un même chargeur",
+                  "valeur_cible": 1
                 }
               ]
             },
@@ -8248,7 +8518,7 @@
                 {
                   "id": "arbalete_diamant",
                   "description": "Obtenir le camouflage Or sur toutes les armes de la catégorie (Spéciales)",
-                  "valeur_cible": 3
+                  "valeur_cible": 4
                 }
               ]
             }
@@ -8266,8 +8536,9 @@
               "defis": [
                 {
                   "id": "couteau_balistique_devgru",
-                  "description": "Obtenir 10 kills (défi générique, à corriger)",
-                  "valeur_cible": 10
+                  "description": "Obtenir 25 kills",
+                  "valeur_cible": 25,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8279,8 +8550,9 @@
               "defis": [
                 {
                   "id": "couteau_balistique_a_tacs_au",
-                  "description": "Obtenir 25 kills (défi générique, à corriger)",
-                  "valeur_cible": 25
+                  "description": "Obtenir 50 kills",
+                  "valeur_cible": 50,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8292,8 +8564,9 @@
               "defis": [
                 {
                   "id": "couteau_balistique_erdl",
-                  "description": "Obtenir 50 kills (défi générique, à corriger)",
-                  "valeur_cible": 50
+                  "description": "Obtenir 75 kills",
+                  "valeur_cible": 75,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8305,8 +8578,9 @@
               "defis": [
                 {
                   "id": "couteau_balistique_siberie",
-                  "description": "Obtenir 75 kills (défi générique, à corriger)",
-                  "valeur_cible": 75
+                  "description": "Obtenir 100 kills",
+                  "valeur_cible": 100,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8318,8 +8592,9 @@
               "defis": [
                 {
                   "id": "couteau_balistique_choco",
-                  "description": "Obtenir 100 kills (défi générique, à corriger)",
-                  "valeur_cible": 100
+                  "description": "Obtenir 125 kills",
+                  "valeur_cible": 125,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8331,8 +8606,9 @@
               "defis": [
                 {
                   "id": "couteau_balistique_tigre_bleu",
-                  "description": "Obtenir 125 kills (défi générique, à corriger)",
-                  "valeur_cible": 125
+                  "description": "Obtenir 150 kills",
+                  "valeur_cible": 150,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8344,8 +8620,9 @@
               "defis": [
                 {
                   "id": "couteau_balistique_gouttes_de_sang",
-                  "description": "Obtenir 150 kills (défi générique, à corriger)",
-                  "valeur_cible": 150
+                  "description": "Obtenir 200 kills",
+                  "valeur_cible": 200,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8357,8 +8634,9 @@
               "defis": [
                 {
                   "id": "couteau_balistique_ghostex_delta6",
-                  "description": "Obtenir 175 kills (défi générique, à corriger)",
-                  "valeur_cible": 175
+                  "description": "Obtenir 250 kills",
+                  "valeur_cible": 250,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8370,8 +8648,9 @@
               "defis": [
                 {
                   "id": "couteau_balistique_kryptek_thyphon",
-                  "description": "Obtenir 200 kills (défi générique, à corriger)",
-                  "valeur_cible": 200
+                  "description": "Obtenir 300 kills",
+                  "valeur_cible": 300,
+                  "compteur": "Éliminations"
                 }
               ]
             },
@@ -8383,8 +8662,8 @@
               "defis": [
                 {
                   "id": "couteau_balistique_fibre_de_carbone",
-                  "description": "Obtenir 225 kills (défi générique, à corriger)",
-                  "valeur_cible": 225
+                  "description": "Tuer 5 fois le joueur qui vous a tué",
+                  "valeur_cible": 5
                 }
               ]
             },
@@ -8396,8 +8675,8 @@
               "defis": [
                 {
                   "id": "couteau_balistique_fleurs_de_cerisier",
-                  "description": "Obtenir 250 kills (défi générique, à corriger)",
-                  "valeur_cible": 250
+                  "description": "Obtenir 25 kills au corps à corps",
+                  "valeur_cible": 25
                 }
               ]
             },
@@ -8409,8 +8688,8 @@
               "defis": [
                 {
                   "id": "couteau_balistique_art_de_la_guerre",
-                  "description": "Obtenir 275 kills (défi générique, à corriger)",
-                  "valeur_cible": 275
+                  "description": "Obtenir 25 kills en récupérant la lame du couteau balistique",
+                  "valeur_cible": 25
                 }
               ]
             },
@@ -8422,8 +8701,8 @@
               "defis": [
                 {
                   "id": "couteau_balistique_ronin",
-                  "description": "Obtenir 300 kills (défi générique, à corriger)",
-                  "valeur_cible": 300
+                  "description": "Obtenir 1 médaille Double meurtre",
+                  "valeur_cible": 1
                 }
               ]
             },
@@ -8435,8 +8714,8 @@
               "defis": [
                 {
                   "id": "couteau_balistique_cranes",
-                  "description": "Obtenir 350 kills (défi générique, à corriger)",
-                  "valeur_cible": 350
+                  "description": "Obtenir 2 médailles Sanguinaire",
+                  "valeur_cible": 2
                 }
               ]
             },
@@ -8462,7 +8741,230 @@
                 {
                   "id": "couteau_balistique_diamant",
                   "description": "Obtenir le camouflage Or sur toutes les armes de la catégorie (Spéciales)",
-                  "valeur_cible": 3
+                  "valeur_cible": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "couteau_combat",
+          "nom": "Couteau de combat",
+          "camouflages": [
+            {
+              "id": "devgru",
+              "nom": "DEVGRU",
+              "ordre": 1,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_devgru",
+                  "description": "Obtenir 10 kills",
+                  "valeur_cible": 10,
+                  "compteur": "Éliminations"
+                }
+              ]
+            },
+            {
+              "id": "a_tacs_au",
+              "nom": "A-TACS AU",
+              "ordre": 2,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_a_tacs_au",
+                  "description": "Obtenir 20 kills",
+                  "valeur_cible": 20,
+                  "compteur": "Éliminations"
+                }
+              ]
+            },
+            {
+              "id": "erdl",
+              "nom": "ERDL",
+              "ordre": 3,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_erdl",
+                  "description": "Obtenir 40 kills",
+                  "valeur_cible": 40,
+                  "compteur": "Éliminations"
+                }
+              ]
+            },
+            {
+              "id": "siberie",
+              "nom": "Sibérie",
+              "ordre": 4,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_siberie",
+                  "description": "Obtenir 60 kills",
+                  "valeur_cible": 60,
+                  "compteur": "Éliminations"
+                }
+              ]
+            },
+            {
+              "id": "choco",
+              "nom": "Choco",
+              "ordre": 5,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_choco",
+                  "description": "Obtenir 80 kills",
+                  "valeur_cible": 80,
+                  "compteur": "Éliminations"
+                }
+              ]
+            },
+            {
+              "id": "tigre_bleu",
+              "nom": "Tigre bleu",
+              "ordre": 6,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_tigre_bleu",
+                  "description": "Obtenir 100 kills",
+                  "valeur_cible": 100,
+                  "compteur": "Éliminations"
+                }
+              ]
+            },
+            {
+              "id": "gouttes_de_sang",
+              "nom": "Gouttes de sang",
+              "ordre": 7,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_gouttes_de_sang",
+                  "description": "Obtenir 120 kills",
+                  "valeur_cible": 120,
+                  "compteur": "Éliminations"
+                }
+              ]
+            },
+            {
+              "id": "ghostex_delta6",
+              "nom": "Ghostex : Delta6",
+              "ordre": 8,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_ghostex_delta6",
+                  "description": "Obtenir 160 kills",
+                  "valeur_cible": 160,
+                  "compteur": "Éliminations"
+                }
+              ]
+            },
+            {
+              "id": "kryptek_thyphon",
+              "nom": "Kryptek : Thyphon",
+              "ordre": 9,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_kryptek_thyphon",
+                  "description": "Obtenir 200 kills",
+                  "valeur_cible": 200,
+                  "compteur": "Éliminations"
+                }
+              ]
+            },
+            {
+              "id": "fibre_de_carbone",
+              "nom": "Fibre de carbone",
+              "ordre": 10,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_fibre_de_carbone",
+                  "description": "Poignarder 10 ennemis dans le dos",
+                  "valeur_cible": 10
+                }
+              ]
+            },
+            {
+              "id": "fleurs_de_cerisier",
+              "nom": "Fleurs de cerisier",
+              "ordre": 11,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_fleurs_de_cerisier",
+                  "description": "Obtenir 5 médailles Survivant",
+                  "valeur_cible": 5
+                }
+              ]
+            },
+            {
+              "id": "art_de_la_guerre",
+              "nom": "L'Art de la guerre",
+              "ordre": 12,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_art_de_la_guerre",
+                  "description": "Tuer 5 ennemis avec leur propre arme après un kill au couteau",
+                  "valeur_cible": 5
+                }
+              ]
+            },
+            {
+              "id": "ronin",
+              "nom": "Ronin",
+              "ordre": 13,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_ronin",
+                  "description": "Obtenir 5 médailles Vengeance",
+                  "valeur_cible": 5
+                }
+              ]
+            },
+            {
+              "id": "cranes",
+              "nom": "Crânes",
+              "ordre": 14,
+              "type": "standard",
+              "defis": [
+                {
+                  "id": "couteau_combat_cranes",
+                  "description": "Obtenir 5 médailles Sanguinaire",
+                  "valeur_cible": 5
+                }
+              ]
+            },
+            {
+              "id": "or",
+              "nom": "Or",
+              "ordre": 15,
+              "type": "or",
+              "defis": [
+                {
+                  "id": "couteau_combat_or",
+                  "description": "Débloquer les 14 camouflages standards de cette arme",
+                  "valeur_cible": 14
+                }
+              ]
+            },
+            {
+              "id": "diamant",
+              "nom": "Diamant",
+              "ordre": 16,
+              "type": "diamant",
+              "defis": [
+                {
+                  "id": "couteau_combat_diamant",
+                  "description": "Obtenir le camouflage Or sur toutes les armes de la catégorie (Spéciales)",
+                  "valeur_cible": 4
                 }
               ]
             }
