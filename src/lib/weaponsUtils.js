@@ -8,6 +8,18 @@ export function getCompteurId(armeId, defi) {
   return defi.compteur ? `${armeId}__c__${defi.compteur}` : defi.id
 }
 
+// Chaque arme possède 2 niveaux de prestige (indépendants des camouflages), représentés par
+// une étoile chacun. Traités comme des défis binaires (0 ou 1) réutilisant le même mécanisme
+// de synchronisation que la progression des camouflages, sans nécessiter de table à part.
+export function getPrestigeDefiId(armeId, level) {
+  return `${armeId}_prestige_${level}`
+}
+
+export function isPrestigeAchieved(armeId, level, progressionMap) {
+  const id = getPrestigeDefiId(armeId, level)
+  return (progressionMap[id]?.valeur_actuelle ?? 0) >= 1
+}
+
 // Aplatit le JSON en une liste de défis, chacun rattaché à sa catégorie/arme/camouflage.
 export function getFlatDefis() {
   const defis = []
@@ -30,6 +42,24 @@ export function getFlatDefis() {
             camoOrdre: camo.ordre,
           })
         }
+      }
+
+      for (const level of [1, 2]) {
+        const id = getPrestigeDefiId(arme.id, level)
+        defis.push({
+          id,
+          compteurId: id,
+          description: `Prestige ${level}`,
+          valeurCibleDefaut: 1,
+          categorieId: categorie.id,
+          categorieNom: categorie.nom,
+          armeId: arme.id,
+          armeNom: arme.nom,
+          camoId: null,
+          camoNom: `Prestige ${level}`,
+          camoType: 'prestige',
+          camoOrdre: 100 + level,
+        })
       }
     }
   }
